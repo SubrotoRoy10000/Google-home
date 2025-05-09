@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google</title>
+  <link rel="stylesheet" href="Html.css">
+</head>
+<body>
+  <section>
+    <header>
+      <ul>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#"><img src="menu.png" alt="Menu" style="width: 20px; height: 20px;"></a></li>
+        <li><button>Sign in</button></li>
+      </ul>
+    </header>
+
+    <div class="main">
+      <img src="Google-Emblem-removebg-preview.png" alt="Google Logo">
+
+      <form class="searchbox" action="https://www.google.com/search" method="GET" target="_blank">
+        <input type="text" name="q" placeholder="Search Google..." required>
+      </form>
+
+      <div class="buttons">
+        <button class="button" onclick="document.querySelector('.searchbox form').submit()">Google Search</button>
+        <button class="button" onclick="window.location.href='https://www.google.com/doodles'">I'm Feeling Lucky</button>
+      </div>
+
+      <div class="lang">
+        Google offered in: <a href="#">বাংলা</a>
+      </div>
+    </div>
+
+    <div class="Footer">
+      <ul>
+        <li><a href="#" style="color: #0b57d0;">Home</a></li>
+        <li><a href="#" style="color: #0b57d0;">About</a></li>
+        <li><a href="#" style="color: #0b57d0;">Services</a></li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
